@@ -36,7 +36,7 @@ Architecture decisions are recorded as ADRs in [docs/adr](docs/adr/).
 - [ ] Lookback window and backfill through the same code
 
 ### Loading
-- [ ] Raw schema from a versioned SQL init script
+- [x] Raw schema from a versioned SQL init script
 - [ ] One JSON document per record, with load timestamp
 
 ### Transformation
