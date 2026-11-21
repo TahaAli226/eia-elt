@@ -17,6 +17,6 @@ Raw tables will be created with init scripts instead of migration tools like Ale
 
 ## Consequences
 
-- Simple setup a fresh database comes up fully set up with docker compose up.
+- Simple set up a fresh database comes up fully set up with docker compose up.
 - Harder to migrate, but the schema will need little to no migration because the EIA data is stored inside jsonb untouched.
 - The init scripts only run on an empty database.

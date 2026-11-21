@@ -1,4 +1,4 @@
-# 1. One raw table per dataset
+# 2. One raw table per dataset
 
 Date: 2026-11-10
 
@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-The EIA API offers multiple datasets that include crude oil, gas and other energy data with each dataset having different units, volumes, lookback windows and backfill dates. 
+The EIA API offers multiple datasets that include crude oil, gas and other energy data with each dataset having different units, volumes, look-back windows and backfill dates. 
 
 ## Decision
 
@@ -18,4 +18,4 @@ One raw table per dataset with the extractor deciding where to put each dataset 
 
 - Each table will have its own dbt tests and validations.
 - Can delete or update the entire table without touching the other tables.
-- Each new dataset needs a config and a new table in the init script.
+- Each new dataset needs a config and a new table inside `sql/init/` directory (see ADR-0003).

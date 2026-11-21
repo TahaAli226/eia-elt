@@ -1,4 +1,4 @@
-# 2. Store raw EIA data as one row per record
+# 1. Store raw EIA data as one row per record
 
 Date: 2026-11-10
 
